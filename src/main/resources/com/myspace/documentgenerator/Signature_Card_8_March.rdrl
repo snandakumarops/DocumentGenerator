@@ -1,0 +1,19 @@
+package com.myspace.documentgenerator;
+
+import java.lang.Number;
+
+rule "Signature_Card_8_March"
+	dialect "mvel"
+	date-effective "08-Mar-2019"
+	date-expires "08-Mar-2019"
+	when
+		DocumentConf( region == "CEEMEA" , country in ( "SAUDI ARABIA", "SEYCHELLES" ) , audience == "client" )
+	then
+		DocumentResult fact0 = new DocumentResult();
+		fact0.setDocumentName( "Signature Card" );
+		fact0.setDocumentDescription( "desc-55444" );
+		fact0.setClientInstr( "client-inst-2222" );
+		fact0.setDocumentPolicy( "REGULATORY" );
+		fact0.setDocumentCertification( "Notarized" );
+		insert( fact0 );
+end
