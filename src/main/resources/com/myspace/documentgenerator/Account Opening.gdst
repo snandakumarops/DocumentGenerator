@@ -1,0 +1,1816 @@
+<decision-table52>
+  <tableName>Account_Opening_Form</tableName>
+  <rowNumberCol>
+    <hideColumn>false</hideColumn>
+    <width>50</width>
+  </rowNumberCol>
+  <descriptionCol>
+    <hideColumn>false</hideColumn>
+    <width>150</width>
+  </descriptionCol>
+  <metadataCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueDate>2019-03-14 02:02:24.57 UTC</valueDate>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>date-effective</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueDate>2019-03-14 02:02:52.234 UTC</valueDate>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>date-expires</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueNumeric class="int">0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>true</hideColumn>
+      <width>130</width>
+      <attribute>salience</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>true</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>criteria</factType>
+      <boundName>crit</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>134</width>
+          <header>Product</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>product</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>139</width>
+          <header>Sub Product</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>subProduct</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Service</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>service</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Sub Service</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>subService</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Audience</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>audience</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>149</width>
+          <header>Sub Channel</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>subChannel</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>139</width>
+          <header>Residency</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>residency</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Domicile</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>leDomicile</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>130</width>
+          <header>Entity Types</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>entityTypes</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString>Account Opening Form</valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>190</width>
+          <header>Document Name</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>documentName</factField>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Region</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>region</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Country</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>country</factField>
+          <operator>in</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>162</width>
+      <header>Document Name</header>
+      <boundName>crit</boundName>
+      <factField>documentName</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Document Description</header>
+      <boundName>crit</boundName>
+      <factField>documentDesc</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Certification</header>
+      <boundName>crit</boundName>
+      <factField>documentCertification</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Document Policy</header>
+      <boundName>crit</boundName>
+      <factField>documentPolicy</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>169</width>
+      <header>Document Template</header>
+      <boundName>crit</boundName>
+      <factField>documentTemplate</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Instructions</header>
+      <boundName>crit</boundName>
+      <factField>instructions</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>116</width>
+      <header>Document Group</header>
+      <boundName>crit</boundName>
+      <factField>documentGroup</factField>
+      <type>String</type>
+      <update>true</update>
+    </set-field-col52>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>docs</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>documentResult docs = new documentResult();
+docs.setDocumentName(crit.getDocumentName());
+docs.setCertification(crit.getDocumentCertification());
+docs.setPolicy(crit.getDocumentPolicy());
+docs.setDescription(crit.getDocumentDesc());
+docs.setInstructions(crit.getInstructions());
+docs.setDocumentCategory(crit.getDocumentGroup());
+docs.setTemplate(crit.getDocumentTemplate());
+insert(docs);
+</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>docs</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+  </actionCols>
+  <auditLog>
+    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
+      <acceptedTypes>
+        <entry>
+          <string>INSERT_ROW</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_ROW</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_COLUMN</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>UPDATE_COLUMN</string>
+          <boolean>true</boolean>
+        </entry>
+      </acceptedTypes>
+    </filter>
+    <entries>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 16:05:58.500 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>6</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:11:59.761 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>6</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:07:33.277 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>6</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:07:14.978 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <factField>documentName</factField>
+          <operator>==</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <factField>documentName</factField>
+          <operator>==</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <oldValue class="string"></oldValue>
+            <newValue class="string">Account Opening Form</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:06:25.357 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Region</columnHeader>
+          <factField>region</factField>
+          <operator>in</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Region</columnHeader>
+          <factField>region</factField>
+          <operator>in</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <oldValue class="string">NA,CEEMEA,ASPAC,LATAM,EMEA,Western Europe</oldValue>
+            <newValue class="string"></newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:06:06.204 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Residency</columnHeader>
+          <factField>residency</factField>
+          <operator>in</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Residency</columnHeader>
+          <factField>residency</factField>
+          <operator>in</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <oldValue class="string">Resident,Non-Resident,Both</oldValue>
+            <newValue class="string"></newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:05:57.682 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Audience</columnHeader>
+          <factField>audience</factField>
+          <operator>in</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Audience</columnHeader>
+          <factField>audience</factField>
+          <operator>in</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <oldValue class="string">internal,client</oldValue>
+            <newValue class="string"></newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:05:22.333 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>6</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 15:02:18.757 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>6</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:31:26.257 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details>
+          <columnHeader>docs</columnHeader>
+        </details>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:30:22.94 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <columnHeader>DocSave</columnHeader>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.DeleteColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:27.187 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Group</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentGroup</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Group</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentGroup</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">116</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:22.930 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Instructions</columnHeader>
+          <boundName>crit</boundName>
+          <factField>instructions</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Instructions</columnHeader>
+          <boundName>crit</boundName>
+          <factField>instructions</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">100</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:18.93 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Template</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentTemplate</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Template</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentTemplate</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">169</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:13.286 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Policy</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentPolicy</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Policy</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentPolicy</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">100</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:08.210 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Certification</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentCertification</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Certification</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentCertification</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">100</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:24:03.346 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Description</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentDesc</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Description</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentDesc</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">100</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:23:57.882 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">162</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:20:57.820 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>5</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 14:20:38.404 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details>
+          <columnHeader>DocSave</columnHeader>
+        </details>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 11:24:11.808 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">162</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>update</fieldName>
+            <oldValue class="boolean">false</oldValue>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 05:07:32.331 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Entity Types</columnHeader>
+          <factField>entityTypes</factField>
+          <operator>in</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Entity Types</columnHeader>
+          <factField>entityTypes</factField>
+          <operator>in</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>operator</fieldName>
+            <oldValue class="string">==</oldValue>
+            <newValue class="string">in</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:39:20.515 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionSetFieldColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <boundName>crit</boundName>
+          <factField>documentName</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>width</fieldName>
+            <oldValue class="int">162</oldValue>
+            <newValue class="int">-1</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>factField</fieldName>
+            <oldValue class="string">docName</oldValue>
+            <newValue class="string">documentName</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:39:11.555 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <factField>documentName</factField>
+          <operator>==</operator>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Document Name</columnHeader>
+          <factField>documentName</factField>
+          <operator>==</operator>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>factField</fieldName>
+            <oldValue class="string">docName</oldValue>
+            <newValue class="string">documentName</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>fieldType</fieldName>
+            <newValue class="string">String</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:32:35.569 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>4</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:29:47.423 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>3</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:24:01.381 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Country</columnHeader>
+          <factField>country</factField>
+          <operator>in</operator>
+        </details>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:23:34.661 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ConditionColumnDetails">
+          <columnHeader>Region</columnHeader>
+          <factField>region</factField>
+          <operator>in</operator>
+        </details>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertColumnAuditLogEntry>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+        <dateOfEntry>2019-03-14 02:22:16.818 UTC</dateOfEntry>
+        <userName>pamAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <rowIndex>2</rowIndex>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.InsertRowAuditLogEntry>
+    </entries>
+  </auditLog>
+  <imports>
+    <imports/>
+  </imports>
+  <packageName>com.myspace.documentgenerator</packageName>
+  <tableFormat>EXTENDED_ENTRY</tableFormat>
+  <hitPolicy>NONE</hitPolicy>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Baseline</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Services</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New Account</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New Account</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>client</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Request to open an account and acceptance of account terms and conditions.</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>COMPANY CERTIFIED</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>BANK MANDATE</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Consult last page, as needed, for detailed instructions on each section.</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>CLIENT TO COMPLETE AND SEND</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Override</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ORIGINAL</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>BANK POLICY</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>MXCCEC20181018021406_AOF</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Override</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non-Resident</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Western Europe</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>IRELAND</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>SIMPLE COPY</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>BANK POLICY</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>MXCCEC20181221021235_AOF_Ireland</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Override</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Resident</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Citi Entity,Club and Societies,Corporate - Irish Registered Public Listed Company (including known subsidiary),Corporate - Non Irish Public Listed Company (including known subsidiary),Corporate - Private Company,Individual,Institutional (Pension funds/Charity),Partnership,Regulated Banks and Financial Institutions</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Western Europe</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>IRELAND</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ORIGINAL</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString> VAT Number not required for resident entities.</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Override</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2019-03-27 05:00:00.0 UTC</valueDate>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueDate>2019-03-31 05:00:00.0 UTC</valueDate>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>eBAM Premier,eBAM Standard</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>NA</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>UNITED STATES OF AMERICA</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>MXCCEC20180216044830_AOF_US_eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Please complete and return this form along with the eBAM Account Opening PDF.</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Ovveride</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Services</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New Account</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New Account</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>client</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ORIGINAL</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">7</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>DATE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">7</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Non eBAM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Resident</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Account Opening Form</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>description overriden by rule rule_7</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>COMPANY CERTIFIED</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
+</decision-table52>
